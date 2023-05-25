@@ -1,0 +1,228 @@
+/* ALL VERSION */
+
+h2 {
+  font-size: 30px;
+  font-family: "viga";
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+footer {
+  color: #ffff;
+  text-align: center;
+  font-family: "viga";
+}
+/* Navbar  ALL Version*/
+.navbar-brand {
+  font-family: "viga";
+  font-size: 36px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.nav-link {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.navbar-brand span {
+  color: #820707;
+}
+
+.myicon {
+  color: #820707;
+  padding-right: 5px;
+}
+
+/* jumbotron ALL Version */
+
+.jumbotron {
+  background-image: url(img/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+}
+
+.jumbotron .display-4 {
+  color: #ffff;
+  text-align: center;
+  padding-top: 250px;
+  font-size: 18px;
+  font-weight: 500px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.jumbotron .display-4 span {
+  color: #820707;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.jumbotron h2 {
+  margin-bottom: 100px;
+}
+
+/* tentang */
+#tentang {
+  color: #ffff;
+  margin-top: 80px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+#tentang p {
+  font-size: 16px;
+  font-weight: 300;
+}
+#tentang span {
+  color: #820707;
+  font-family: "viga";
+}
+
+/* kegiatan */
+
+#kegiatan {
+  color: #000;
+  margin-top: 80px;
+  text-align: center;
+  background-color: #ffff;
+}
+
+#kegiatan .row-brand {
+  margin-bottom: 50px;
+}
+
+.carousel-item img {
+  height: 300px;
+  object-fit: cover;
+  padding-top: 5px;
+}
+
+#kegiatan span {
+  color: #820707;
+}
+
+/* berita */
+#berita {
+  background-color: #ffff;
+}
+#berita .berita-brand {
+  color: #000;
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#berita span {
+  color: #820707;
+}
+
+#berita h3 {
+  color: #ffff;
+}
+
+.card {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.8);
+  background-color: #000;
+  color: #ffff;
+}
+
+#warga .row > * {
+  padding: 0px;
+}
+
+/* Warga */
+#warga {
+  color: #ffff;
+  margin-top: 90px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+#warga .warga-brand {
+  margin-bottom: 50px;
+}
+
+#warga span {
+  color: #820707;
+}
+.imgfluid {
+  width: 100%;
+}
+
+/* kontak */
+
+#kontak {
+  background-color: #ffff;
+}
+
+#kontak .kontak-brand {
+  color: #000;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+#kontak form {
+  color: #000;
+}
+
+.maps {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-kirim {
+  background-color: #ffd700;
+}
+.btn-loading {
+  background-color: #ffd700;
+}
+
+#kontak span {
+  color: #820707;
+}
+
+footer .gift {
+  color: #ffd700;
+}
+/* DEKSTOP VERSION */
+@media (min-width: 992px) {
+  /* navbar DEKSTOP */
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 3px;
+  }
+
+  .navbar-nav::after {
+    content: "";
+    display: block;
+    border-right: 2px solid #820707;
+    width: 60%;
+    margin-right: 10px;
+  }
+  /* jumbotron DEKSTOP */
+  .jumbotron {
+    margin-top: -90px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 32px;
+  }
+
+  /* tentang */
+  #tentang {
+    text-align: left;
+  }
+
+  /* kontak */
+  .formulir {
+    margin-top: -50px;
+  }
+  .maps {
+    margin-top: -30px;
+  }
+}
